@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".SearchFragment">
+
+    <!-- Large ImageView for displaying the uploaded image -->
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginBottom="16dp"
+        android:scaleType="centerCrop"
+        android:background="@android:color/darker_gray"
+        android:contentDescription="Selected Image" />
+
+    <!-- Button to upload image -->
+    <Button
+        android:id="@+id/upload_image_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload Image"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/blue"
+        android:layout_gravity="center_horizontal"
+        android:padding="12dp"
+        android:textSize="16sp" />
+
+    <!-- TextView to display result -->
+    <TextView
+        android:id="@+id/result_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/white"
+        android:padding="16dp"
+        android:text="Result will appear here"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:gravity="center" />
+
+</LinearLayout>

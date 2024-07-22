@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "44147757121",
+    "project_id": "yourheathhero",
+    "storage_bucket": "yourheathhero.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:44147757121:android:bc7613fbf57aa6cd7536c0",
+        "android_client_info": {
+          "package_name": "com.example.yourheathhero"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPsEwcVNUkPi0kdwt82QoV_539WA9Zlyw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

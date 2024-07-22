@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/_844470_home_house_icon"
+        android:id="@+id/home"
+        android:title="Home"/>
+
+    <item
+        android:icon="@drawable/_666753_message_circle_chat_icon"
+        android:id="@+id/chatbot"
+        android:title="Chat-bot"/>
+
+    <item
+        android:icon="@drawable/help_circle__1_"
+        android:id="@+id/search"
+        android:title="Explore"/>
+
+    <item
+        android:icon="@drawable/user_circle__1_"
+        android:id="@+id/profile"
+        android:title="Profile"/>
+
+</menu>
